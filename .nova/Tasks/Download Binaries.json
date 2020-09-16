@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nset -e\n\nversion=\"$(curl -sS https:\/\/update.tabnine.com\/version)\"\ntarget='x86_64-apple-darwin'\n\nrm -rf .\/binaries\nmkdir -p binaries\/$version\/$target\n\npath=$version\/$target\/TabNine\n\ncurl -sS https:\/\/update.tabnine.com\/$path > binaries\/$path\nchmod +x binaries\/$path"
+    }
+  },
+  "identifier" : "5B9F0D41-2B67-4AD5-9D68-41B1B16BC4D6",
+  "openLogOnRun" : "fail"
+}
