@@ -1,0 +1,12 @@
+{
+    "identifier": "innoract.TabNine",
+    "name": "TabNine",
+    "organization": "Innoract",
+    "description": "",
+    "version": "1.0",
+    "repository": "https://github.com/henrikdahl/nova-tabnine",
+    "bugs": "https://github.com/henrikdahl/nova-tabnine/issues",
+    "license": "MIT",
+    "categories": [],
+    "main": "main.dist.js"
+}
